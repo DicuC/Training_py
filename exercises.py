@@ -77,8 +77,8 @@ cnp_information_2.add(456)
 print(cnp_information_2)
 
 # 23. Print the values which are different between the sets. So the output should be {65654, 12345677889}.
-different_values = cnp_information_2.difference(cnp_information)
-print(different_values)
+different_values = cnp_information.symmetric_difference(cnp_information_2)
+print("Diferent values: ", different_values)
 
 
 ###Ex:25-26
